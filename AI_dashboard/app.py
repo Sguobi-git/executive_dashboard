@@ -6,7 +6,7 @@ import traceback
 import logging
 import os
 
-# Simple logging without emoji to avoid Windows console issues
+
 LOG_FILE = 'executive_demo.log'
 
 logging.basicConfig(
