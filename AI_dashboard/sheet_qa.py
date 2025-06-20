@@ -6,7 +6,7 @@ import torch
 import os
 
 
-WEB_APP_URL = #"UPDATE THIS WITH YOUR DEPLOYED APPS SCRIPT URL"
+WEB_APP_URL = os.environ.get('GOOGLE_SHEETS_URL', 'YOUR_DEPLOYED_APPS_SCRIPT_URL')
 MODEL_NAME = 'all-MiniLM-L6-v2'
 
 def fetch_sheet_data(url):
