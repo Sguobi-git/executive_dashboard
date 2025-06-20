@@ -5,8 +5,8 @@ from sentence_transformers import SentenceTransformer, util
 import torch
 import os
 
-# Configuration - UPDATE THIS WITH YOUR DEPLOYED APPS SCRIPT URL
-WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzuIq-jSY8kjPvw592o325NvCF6n_DlbpHdHxRj4E8MAsvWniW3mMIgZ6T-UnbfDLM0/exec"  # Replace after deployment
+
+WEB_APP_URL = #"UPDATE THIS WITH YOUR DEPLOYED APPS SCRIPT URL"
 MODEL_NAME = 'all-MiniLM-L6-v2'
 
 def fetch_sheet_data(url):
