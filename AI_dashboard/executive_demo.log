@@ -1,0 +1,723 @@
+2025-06-04 21:43:22,369 - INFO - Starting Executive Demo Server...
+2025-06-04 21:43:22,369 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-04 21:43:22,371 - INFO - Use pytorch device_name: cpu
+2025-06-04 21:43:22,371 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-04 21:43:24,285 - INFO - Model loaded successfully!
+2025-06-04 21:43:24,297 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2025-06-04 21:43:24,297 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:43:24,313 - INFO -  * Restarting with stat
+2025-06-04 21:43:30,282 - INFO - Starting Executive Demo Server...
+2025-06-04 21:43:30,282 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-04 21:43:30,284 - INFO - Use pytorch device_name: cpu
+2025-06-04 21:43:30,284 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-04 21:43:32,005 - INFO - Model loaded successfully!
+2025-06-04 21:43:32,015 - WARNING -  * Debugger is active!
+2025-06-04 21:43:32,020 - INFO -  * Debugger PIN: 307-343-049
+2025-06-04 21:43:40,251 - INFO - 127.0.0.1 - - [04/Jun/2025 21:43:40] "GET / HTTP/1.1" 200 -
+2025-06-04 21:44:17,586 - INFO - Received executive question
+2025-06-04 21:44:17,586 - INFO - Question: What's the status of Coffee Fest?
+2025-06-04 21:44:17,586 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:44:19,671 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:44:19,671 - INFO - Processing with AI...
+2025-06-04 21:44:19,683 - INFO - AI response generated
+2025-06-04 21:44:19,684 - INFO - 127.0.0.1 - - [04/Jun/2025 21:44:19] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:44:49,687 - INFO - Received executive question
+2025-06-04 21:44:49,687 - INFO - Question: Show me our Q4 performance
+2025-06-04 21:44:49,687 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:44:51,570 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:44:51,574 - INFO - Processing with AI...
+2025-06-04 21:44:51,574 - INFO - AI response generated
+2025-06-04 21:44:51,574 - INFO - 127.0.0.1 - - [04/Jun/2025 21:44:51] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:45:36,668 - INFO - Received executive question
+2025-06-04 21:45:36,668 - INFO - Question: how are you?
+2025-06-04 21:45:36,668 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:45:38,239 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:45:38,239 - INFO - Processing with AI...
+2025-06-04 21:45:38,485 - INFO - AI response generated
+2025-06-04 21:45:38,485 - INFO - 127.0.0.1 - - [04/Jun/2025 21:45:38] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:45:59,599 - INFO - Received executive question
+2025-06-04 21:45:59,599 - INFO - Question: What's the status of Coffee Fest?
+2025-06-04 21:45:59,599 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:46:02,352 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:46:02,352 - INFO - Processing with AI...
+2025-06-04 21:46:02,354 - INFO - AI response generated
+2025-06-04 21:46:02,354 - INFO - 127.0.0.1 - - [04/Jun/2025 21:46:02] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:50:22,337 - INFO - Received executive question
+2025-06-04 21:50:22,337 - INFO - Question: What is the contact person for Coffee fest 2025?
+2025-06-04 21:50:22,337 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:50:24,522 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:50:24,524 - INFO - Processing with AI...
+2025-06-04 21:50:24,524 - INFO - AI response generated
+2025-06-04 21:50:24,525 - INFO - 127.0.0.1 - - [04/Jun/2025 21:50:24] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:51:12,309 - INFO - Received executive question
+2025-06-04 21:51:12,309 - INFO - Question: What is the progress for Tech Expo?
+2025-06-04 21:51:12,309 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:51:14,324 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:51:14,324 - INFO - Processing with AI...
+2025-06-04 21:51:14,491 - INFO - AI response generated
+2025-06-04 21:51:14,491 - INFO - 127.0.0.1 - - [04/Jun/2025 21:51:14] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:52:00,071 - INFO - Received executive question
+2025-06-04 21:52:00,071 - INFO - Question: Where is Tech Expo taking place?
+2025-06-04 21:52:00,071 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:52:01,953 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:52:01,953 - INFO - Processing with AI...
+2025-06-04 21:52:02,127 - INFO - AI response generated
+2025-06-04 21:52:02,127 - INFO - 127.0.0.1 - - [04/Jun/2025 21:52:02] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:52:46,588 - INFO - Received executive question
+2025-06-04 21:52:46,588 - INFO - Question: When Coffee Fest 2025 will start?
+2025-06-04 21:52:46,588 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:52:48,336 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:52:48,336 - INFO - Processing with AI...
+2025-06-04 21:52:48,336 - INFO - AI response generated
+2025-06-04 21:52:48,336 - INFO - 127.0.0.1 - - [04/Jun/2025 21:52:48] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:53:54,053 - INFO - Received executive question
+2025-06-04 21:53:54,053 - INFO - Question: Who is the contact person for Food Summit?
+2025-06-04 21:53:54,053 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:53:55,953 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:53:55,953 - INFO - Processing with AI...
+2025-06-04 21:53:56,123 - INFO - AI response generated
+2025-06-04 21:53:56,123 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:56] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:54:16,125 - INFO - Received executive question
+2025-06-04 21:54:16,125 - INFO - Question: When Coffee Fest will start?
+2025-06-04 21:54:16,125 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:54:18,125 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:54:18,125 - INFO - Processing with AI...
+2025-06-04 21:54:18,125 - INFO - AI response generated
+2025-06-04 21:54:18,128 - INFO - 127.0.0.1 - - [04/Jun/2025 21:54:18] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:54:52,238 - INFO - Received executive question
+2025-06-04 21:54:52,238 - INFO - Question: What is the start date for Coffee Fest 2025?
+2025-06-04 21:54:52,238 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:54:54,594 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:54:54,594 - INFO - Processing with AI...
+2025-06-04 21:54:54,596 - INFO - AI response generated
+2025-06-04 21:54:54,596 - INFO - 127.0.0.1 - - [04/Jun/2025 21:54:54] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:55:18,566 - INFO - Received executive question
+2025-06-04 21:55:18,569 - INFO - Question: What is the budget for Coffee Fest?
+2025-06-04 21:55:18,569 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:55:20,323 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:55:20,323 - INFO - Processing with AI...
+2025-06-04 21:55:20,324 - INFO - AI response generated
+2025-06-04 21:55:20,325 - INFO - 127.0.0.1 - - [04/Jun/2025 21:55:20] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:56:45,307 - INFO - Received executive question
+2025-06-04 21:56:45,307 - INFO - Question: What is the progress for Coffee Fest?
+2025-06-04 21:56:45,307 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:56:47,610 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:56:47,610 - INFO - Processing with AI...
+2025-06-04 21:56:47,610 - INFO - AI response generated
+2025-06-04 21:56:47,610 - INFO - 127.0.0.1 - - [04/Jun/2025 21:56:47] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:57:31,407 - INFO - Received executive question
+2025-06-04 21:57:31,407 - INFO - Question: What is the status of Green Energy Expo?
+2025-06-04 21:57:31,409 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:57:33,510 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:57:33,510 - INFO - Processing with AI...
+2025-06-04 21:57:33,510 - INFO - AI response generated
+2025-06-04 21:57:33,510 - INFO - 127.0.0.1 - - [04/Jun/2025 21:57:33] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:57:50,226 - INFO - Received executive question
+2025-06-04 21:57:50,226 - INFO - Question: What is the status of Green Energy?
+2025-06-04 21:57:50,226 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:57:52,411 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:57:52,411 - INFO - Processing with AI...
+2025-06-04 21:57:52,411 - INFO - AI response generated
+2025-06-04 21:57:52,411 - INFO - 127.0.0.1 - - [04/Jun/2025 21:57:52] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:58:07,800 - INFO - Received executive question
+2025-06-04 21:58:07,800 - INFO - Question: What is the status of Tech Expo?
+2025-06-04 21:58:07,800 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:58:09,862 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:58:09,862 - INFO - Processing with AI...
+2025-06-04 21:58:09,862 - INFO - AI response generated
+2025-06-04 21:58:09,862 - INFO - 127.0.0.1 - - [04/Jun/2025 21:58:09] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:58:50,358 - INFO - Received executive question
+2025-06-04 21:58:50,358 - INFO - Question: Show me our Q4 performance
+2025-06-04 21:58:50,359 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:58:52,309 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:58:52,309 - INFO - Processing with AI...
+2025-06-04 21:58:52,309 - INFO - AI response generated
+2025-06-04 21:58:52,310 - INFO - 127.0.0.1 - - [04/Jun/2025 21:58:52] "POST /ask HTTP/1.1" 200 -
+2025-06-04 21:59:53,558 - INFO - Received executive question
+2025-06-04 21:59:53,558 - INFO - Question: What is the total Revenue of Q1?
+2025-06-04 21:59:53,558 - INFO - Fetching latest Google Sheet data...
+2025-06-04 21:59:55,725 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 21:59:55,725 - INFO - Processing with AI...
+2025-06-04 21:59:55,895 - INFO - AI response generated
+2025-06-04 21:59:55,895 - INFO - 127.0.0.1 - - [04/Jun/2025 21:59:55] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:00:20,875 - INFO - Received executive question
+2025-06-04 22:00:20,875 - INFO - Question: Show me our Q4 performance
+2025-06-04 22:00:20,875 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:00:23,515 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:00:23,522 - INFO - Processing with AI...
+2025-06-04 22:00:23,522 - INFO - AI response generated
+2025-06-04 22:00:23,523 - INFO - 127.0.0.1 - - [04/Jun/2025 22:00:23] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:00:55,563 - INFO - Received executive question
+2025-06-04 22:00:55,563 - INFO - Question: What is the status of Green Energy?
+2025-06-04 22:00:55,563 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:00:57,910 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:00:57,910 - INFO - Processing with AI...
+2025-06-04 22:00:57,911 - INFO - AI response generated
+2025-06-04 22:00:57,912 - INFO - 127.0.0.1 - - [04/Jun/2025 22:00:57] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:01:09,975 - INFO - Received executive question
+2025-06-04 22:01:09,975 - INFO - Question: Show me our Q4 performance
+2025-06-04 22:01:09,975 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:01:11,930 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:01:11,930 - INFO - Processing with AI...
+2025-06-04 22:01:11,930 - INFO - AI response generated
+2025-06-04 22:01:11,930 - INFO - 127.0.0.1 - - [04/Jun/2025 22:01:11] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:01:31,061 - INFO - Received executive question
+2025-06-04 22:01:31,062 - INFO - Question: What is the progress for Tech Expo?
+2025-06-04 22:01:31,062 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:01:33,279 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:01:33,279 - INFO - Processing with AI...
+2025-06-04 22:01:33,450 - INFO - AI response generated
+2025-06-04 22:01:33,450 - INFO - 127.0.0.1 - - [04/Jun/2025 22:01:33] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:01:50,270 - INFO - Received executive question
+2025-06-04 22:01:50,273 - INFO - Question: What is the progress for food summit?
+2025-06-04 22:01:50,273 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:01:52,091 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:01:52,091 - INFO - Processing with AI...
+2025-06-04 22:01:52,232 - INFO - AI response generated
+2025-06-04 22:01:52,232 - INFO - 127.0.0.1 - - [04/Jun/2025 22:01:52] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:02:08,174 - INFO - Received executive question
+2025-06-04 22:02:08,174 - INFO - Question: What is the progress for coffee fest?
+2025-06-04 22:02:08,174 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:02:10,479 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:02:10,479 - INFO - Processing with AI...
+2025-06-04 22:02:10,487 - INFO - AI response generated
+2025-06-04 22:02:10,487 - INFO - 127.0.0.1 - - [04/Jun/2025 22:02:10] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:02:35,244 - INFO - Received executive question
+2025-06-04 22:02:35,244 - INFO - Question: What is the progress for coffee fest 2025?
+2025-06-04 22:02:35,244 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:02:38,974 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:02:38,974 - INFO - Processing with AI...
+2025-06-04 22:02:38,974 - INFO - AI response generated
+2025-06-04 22:02:38,974 - INFO - 127.0.0.1 - - [04/Jun/2025 22:02:38] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:03:40,461 - INFO - Received executive question
+2025-06-04 22:03:40,461 - INFO - Question: What is the progress for green energy?
+2025-06-04 22:03:40,461 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:03:42,727 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:03:42,727 - INFO - Processing with AI...
+2025-06-04 22:03:42,881 - INFO - AI response generated
+2025-06-04 22:03:42,881 - INFO - 127.0.0.1 - - [04/Jun/2025 22:03:42] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:04:02,476 - INFO - Received executive question
+2025-06-04 22:04:02,476 - INFO - Question: What is the progress for coffee?
+2025-06-04 22:04:02,477 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:04:04,164 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:04:04,164 - INFO - Processing with AI...
+2025-06-04 22:04:04,175 - INFO - AI response generated
+2025-06-04 22:04:04,175 - INFO - 127.0.0.1 - - [04/Jun/2025 22:04:04] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:04:30,811 - INFO - Received executive question
+2025-06-04 22:04:30,811 - INFO - Question: What is the buget for Tech expo?
+2025-06-04 22:04:30,811 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:04:32,677 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:04:32,677 - INFO - Processing with AI...
+2025-06-04 22:04:32,830 - INFO - AI response generated
+2025-06-04 22:04:32,830 - INFO - 127.0.0.1 - - [04/Jun/2025 22:04:32] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:05:01,261 - INFO - Received executive question
+2025-06-04 22:05:01,261 - INFO - Question: What is the buget for food summit?
+2025-06-04 22:05:01,261 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:05:03,308 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:05:03,309 - INFO - Processing with AI...
+2025-06-04 22:05:03,444 - INFO - AI response generated
+2025-06-04 22:05:03,444 - INFO - 127.0.0.1 - - [04/Jun/2025 22:05:03] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:05:39,475 - INFO - Received executive question
+2025-06-04 22:05:39,475 - INFO - Question: What is the buget for green energy?
+2025-06-04 22:05:39,475 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:05:41,513 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:05:41,513 - INFO - Processing with AI...
+2025-06-04 22:05:41,670 - INFO - AI response generated
+2025-06-04 22:05:41,671 - INFO - 127.0.0.1 - - [04/Jun/2025 22:05:41] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:06:12,557 - INFO - Received executive question
+2025-06-04 22:06:12,557 - INFO - Question: What is the buget for green energy?
+2025-06-04 22:06:12,558 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:06:14,186 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:06:14,186 - INFO - Processing with AI...
+2025-06-04 22:06:14,323 - INFO - AI response generated
+2025-06-04 22:06:14,323 - INFO - 127.0.0.1 - - [04/Jun/2025 22:06:14] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:06:28,178 - INFO - Received executive question
+2025-06-04 22:06:28,178 - INFO - Question: What is the buget for food summit?
+2025-06-04 22:06:28,178 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:06:30,245 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:06:30,245 - INFO - Processing with AI...
+2025-06-04 22:06:30,413 - INFO - AI response generated
+2025-06-04 22:06:30,413 - INFO - 127.0.0.1 - - [04/Jun/2025 22:06:30] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:08:13,363 - INFO - Received executive question
+2025-06-04 22:08:13,363 - INFO - Question: who is the contact person for Coffee Fest?
+2025-06-04 22:08:13,363 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:08:16,462 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:08:16,462 - INFO - Processing with AI...
+2025-06-04 22:08:16,473 - INFO - AI response generated
+2025-06-04 22:08:16,474 - INFO - 127.0.0.1 - - [04/Jun/2025 22:08:16] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:08:31,317 - INFO - Received executive question
+2025-06-04 22:08:31,317 - INFO - Question: who is the contact person for Tech Expo?
+2025-06-04 22:08:31,317 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:08:33,647 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:08:33,647 - INFO - Processing with AI...
+2025-06-04 22:08:33,813 - INFO - AI response generated
+2025-06-04 22:08:33,813 - INFO - 127.0.0.1 - - [04/Jun/2025 22:08:33] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:08:57,760 - INFO - Received executive question
+2025-06-04 22:08:57,760 - INFO - Question: who is the contact person for food summit?
+2025-06-04 22:08:57,760 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:08:59,833 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:08:59,833 - INFO - Processing with AI...
+2025-06-04 22:08:59,990 - INFO - AI response generated
+2025-06-04 22:08:59,990 - INFO - 127.0.0.1 - - [04/Jun/2025 22:08:59] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:09:29,373 - INFO - Received executive question
+2025-06-04 22:09:29,375 - INFO - Question: who is the contact person for green?
+2025-06-04 22:09:29,375 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:09:35,461 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:09:35,464 - INFO - Processing with AI...
+2025-06-04 22:09:35,620 - INFO - AI response generated
+2025-06-04 22:09:35,622 - INFO - 127.0.0.1 - - [04/Jun/2025 22:09:35] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:09:58,615 - INFO - Received executive question
+2025-06-04 22:09:58,615 - INFO - Question: who is the contact person for green energy?
+2025-06-04 22:09:58,615 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:10:00,713 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:10:00,713 - INFO - Processing with AI...
+2025-06-04 22:10:00,873 - INFO - AI response generated
+2025-06-04 22:10:00,873 - INFO - 127.0.0.1 - - [04/Jun/2025 22:10:00] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:10:54,630 - INFO - Received executive question
+2025-06-04 22:10:54,631 - INFO - Question: Where is Coffee fest taking place?
+2025-06-04 22:10:54,631 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:10:56,901 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:10:56,911 - INFO - Processing with AI...
+2025-06-04 22:10:56,913 - INFO - AI response generated
+2025-06-04 22:10:56,913 - INFO - 127.0.0.1 - - [04/Jun/2025 22:10:56] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:11:09,881 - INFO - Received executive question
+2025-06-04 22:11:09,881 - INFO - Question: Where is tech expo taking place?
+2025-06-04 22:11:09,881 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:11:12,930 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:11:12,930 - INFO - Processing with AI...
+2025-06-04 22:11:13,102 - INFO - AI response generated
+2025-06-04 22:11:13,102 - INFO - 127.0.0.1 - - [04/Jun/2025 22:11:13] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:11:28,865 - INFO - Received executive question
+2025-06-04 22:11:28,865 - INFO - Question: Where is food summit taking place?
+2025-06-04 22:11:28,865 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:11:31,796 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:11:31,796 - INFO - Processing with AI...
+2025-06-04 22:11:31,929 - INFO - AI response generated
+2025-06-04 22:11:31,929 - INFO - 127.0.0.1 - - [04/Jun/2025 22:11:31] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:11:55,748 - INFO - Received executive question
+2025-06-04 22:11:55,748 - INFO - Question: Where is green energy taking place?
+2025-06-04 22:11:55,750 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:11:57,404 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:11:57,405 - INFO - Processing with AI...
+2025-06-04 22:11:57,550 - INFO - AI response generated
+2025-06-04 22:11:57,550 - INFO - 127.0.0.1 - - [04/Jun/2025 22:11:57] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:12:22,043 - INFO - Received executive question
+2025-06-04 22:12:22,045 - INFO - Question: Where is green energy expo taking place?
+2025-06-04 22:12:22,045 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:12:24,129 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:12:24,129 - INFO - Processing with AI...
+2025-06-04 22:12:24,289 - INFO - AI response generated
+2025-06-04 22:12:24,289 - INFO - 127.0.0.1 - - [04/Jun/2025 22:12:24] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:13:38,949 - INFO - Received executive question
+2025-06-04 22:13:38,949 - INFO - Question: What is the progress of coffee fest?
+2025-06-04 22:13:38,949 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:13:41,265 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:13:41,265 - INFO - Processing with AI...
+2025-06-04 22:13:41,265 - INFO - AI response generated
+2025-06-04 22:13:41,268 - INFO - 127.0.0.1 - - [04/Jun/2025 22:13:41] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:13:54,565 - INFO - Received executive question
+2025-06-04 22:13:54,566 - INFO - Question: What is the progress of tech expo?
+2025-06-04 22:13:54,566 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:13:56,613 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:13:56,613 - INFO - Processing with AI...
+2025-06-04 22:13:56,775 - INFO - AI response generated
+2025-06-04 22:13:56,778 - INFO - 127.0.0.1 - - [04/Jun/2025 22:13:56] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:14:15,147 - INFO - Received executive question
+2025-06-04 22:14:15,147 - INFO - Question: What is the progress of food summit?
+2025-06-04 22:14:15,147 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:14:17,012 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:14:17,013 - INFO - Processing with AI...
+2025-06-04 22:14:17,162 - INFO - AI response generated
+2025-06-04 22:14:17,163 - INFO - 127.0.0.1 - - [04/Jun/2025 22:14:17] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:15:18,432 - INFO - Received executive question
+2025-06-04 22:15:18,432 - INFO - Question: What is the progress of green energy?
+2025-06-04 22:15:18,432 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:15:20,559 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:15:20,559 - INFO - Processing with AI...
+2025-06-04 22:15:20,717 - INFO - AI response generated
+2025-06-04 22:15:20,717 - INFO - 127.0.0.1 - - [04/Jun/2025 22:15:20] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:16:16,277 - INFO - Received executive question
+2025-06-04 22:16:16,277 - INFO - Question: what is the growth in total revenue?
+2025-06-04 22:16:16,277 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:16:17,972 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:16:17,979 - INFO - Processing with AI...
+2025-06-04 22:16:18,137 - INFO - AI response generated
+2025-06-04 22:16:18,137 - INFO - 127.0.0.1 - - [04/Jun/2025 22:16:18] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:16:33,516 - INFO - Received executive question
+2025-06-04 22:16:33,516 - INFO - Question: what is the growth in active events?
+2025-06-04 22:16:33,516 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:16:35,396 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:16:35,397 - INFO - Processing with AI...
+2025-06-04 22:16:35,558 - INFO - AI response generated
+2025-06-04 22:16:35,560 - INFO - 127.0.0.1 - - [04/Jun/2025 22:16:35] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:17:28,544 - INFO - Received executive question
+2025-06-04 22:17:28,544 - INFO - Question: what is the status of tech expo?
+2025-06-04 22:17:28,544 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:17:30,147 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:17:30,147 - INFO - Processing with AI...
+2025-06-04 22:17:30,149 - INFO - AI response generated
+2025-06-04 22:17:30,149 - INFO - 127.0.0.1 - - [04/Jun/2025 22:17:30] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:18:03,517 - INFO - Received executive question
+2025-06-04 22:18:03,517 - INFO - Question: What is the progress for tech expo?
+2025-06-04 22:18:03,517 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:18:05,483 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:18:05,483 - INFO - Processing with AI...
+2025-06-04 22:18:05,604 - INFO - AI response generated
+2025-06-04 22:18:05,614 - INFO - 127.0.0.1 - - [04/Jun/2025 22:18:05] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:18:18,944 - INFO - Received executive question
+2025-06-04 22:18:18,944 - INFO - Question: what is the status of tech expo?
+2025-06-04 22:18:18,944 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:18:20,988 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:18:20,988 - INFO - Processing with AI...
+2025-06-04 22:18:20,988 - INFO - AI response generated
+2025-06-04 22:18:20,988 - INFO - 127.0.0.1 - - [04/Jun/2025 22:18:20] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:23:36,421 - INFO - Received executive question
+2025-06-04 22:23:36,421 - INFO - Question: what is the start date for tech expo?
+2025-06-04 22:23:36,421 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:23:38,493 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:23:38,493 - INFO - Processing with AI...
+2025-06-04 22:23:38,641 - INFO - AI response generated
+2025-06-04 22:23:38,641 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:38] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:23:58,556 - INFO - Received executive question
+2025-06-04 22:23:58,556 - INFO - Question: what is the start date for food summit?
+2025-06-04 22:23:58,556 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:24:01,305 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:24:01,305 - INFO - Processing with AI...
+2025-06-04 22:24:01,426 - INFO - AI response generated
+2025-06-04 22:24:01,426 - INFO - 127.0.0.1 - - [04/Jun/2025 22:24:01] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:26:51,773 - INFO - Received executive question
+2025-06-04 22:26:51,773 - INFO - Question: what is the start date for green energy expo?
+2025-06-04 22:26:51,773 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:26:53,960 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:26:53,960 - INFO - Processing with AI...
+2025-06-04 22:26:54,109 - INFO - AI response generated
+2025-06-04 22:26:54,113 - INFO - 127.0.0.1 - - [04/Jun/2025 22:26:54] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:27:37,261 - INFO - Received executive question
+2025-06-04 22:27:37,261 - INFO - Question: What is the efficiency for Event Planning?
+2025-06-04 22:27:37,261 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:27:39,156 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:27:39,164 - INFO - Processing with AI...
+2025-06-04 22:27:39,289 - INFO - AI response generated
+2025-06-04 22:27:39,289 - INFO - 127.0.0.1 - - [04/Jun/2025 22:27:39] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:28:32,823 - INFO - Received executive question
+2025-06-04 22:28:32,823 - INFO - Question: What is the efficiency for Logistics?
+2025-06-04 22:28:32,823 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:28:34,587 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:28:34,588 - INFO - Processing with AI...
+2025-06-04 22:28:34,710 - INFO - AI response generated
+2025-06-04 22:28:34,710 - INFO - 127.0.0.1 - - [04/Jun/2025 22:28:34] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:28:48,446 - INFO - Received executive question
+2025-06-04 22:28:48,446 - INFO - Question: What is the efficiency for Marketing?
+2025-06-04 22:28:48,446 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:28:51,137 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:28:51,137 - INFO - Processing with AI...
+2025-06-04 22:28:51,277 - INFO - AI response generated
+2025-06-04 22:28:51,286 - INFO - 127.0.0.1 - - [04/Jun/2025 22:28:51] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:29:05,821 - INFO - Received executive question
+2025-06-04 22:29:05,821 - INFO - Question: What is the efficiency for Technology?
+2025-06-04 22:29:05,821 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:29:07,777 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:29:07,777 - INFO - Processing with AI...
+2025-06-04 22:29:07,934 - INFO - AI response generated
+2025-06-04 22:29:07,934 - INFO - 127.0.0.1 - - [04/Jun/2025 22:29:07] "POST /ask HTTP/1.1" 200 -
+2025-06-04 22:30:04,681 - INFO - Received executive question
+2025-06-04 22:30:04,681 - INFO - Question: What is the progress for Tech Expo?
+2025-06-04 22:30:04,681 - INFO - Fetching latest Google Sheet data...
+2025-06-04 22:30:06,746 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-04 22:30:06,746 - INFO - Processing with AI...
+2025-06-04 22:30:06,907 - INFO - AI response generated
+2025-06-04 22:30:06,908 - INFO - 127.0.0.1 - - [04/Jun/2025 22:30:06] "POST /ask HTTP/1.1" 200 -
+2025-06-05 15:41:56,606 - INFO - Starting Executive Demo Server...
+2025-06-05 15:41:56,606 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-05 15:41:56,606 - INFO - Use pytorch device_name: cpu
+2025-06-05 15:41:56,606 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-05 15:42:09,817 - INFO - Model loaded successfully!
+2025-06-05 15:42:09,993 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2025-06-05 15:42:09,999 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 15:42:10,018 - INFO -  * Restarting with stat
+2025-06-05 15:42:23,785 - INFO - Starting Executive Demo Server...
+2025-06-05 15:42:23,785 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-05 15:42:23,792 - INFO - Use pytorch device_name: cpu
+2025-06-05 15:42:23,792 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-05 15:42:26,814 - INFO - Model loaded successfully!
+2025-06-05 15:42:26,832 - WARNING -  * Debugger is active!
+2025-06-05 15:42:26,881 - INFO -  * Debugger PIN: 307-343-049
+2025-06-05 15:42:55,768 - INFO - 127.0.0.1 - - [05/Jun/2025 15:42:55] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 15:42:57,326 - INFO - 127.0.0.1 - - [05/Jun/2025 15:42:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-05 15:43:22,728 - INFO - Received executive question
+2025-06-05 15:43:22,732 - INFO - Question: Who is the contact person for Food Summit?
+2025-06-05 15:43:22,732 - INFO - Fetching latest Google Sheet data...
+2025-06-05 15:43:25,270 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-05 15:43:25,272 - INFO - Processing with AI...
+2025-06-05 15:43:25,812 - INFO - AI response generated
+2025-06-05 15:43:25,814 - INFO - 127.0.0.1 - - [05/Jun/2025 15:43:25] "POST /ask HTTP/1.1" 200 -
+2025-06-05 15:57:43,644 - INFO - 127.0.0.1 - - [05/Jun/2025 15:57:43] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 17:25:19,695 - INFO - 127.0.0.1 - - [05/Jun/2025 17:25:19] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 20:37:52,245 - INFO - Starting Executive Demo Server...
+2025-06-05 20:37:52,245 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-05 20:37:52,249 - INFO - Use pytorch device_name: cpu
+2025-06-05 20:37:52,249 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-05 20:37:55,667 - INFO - Model loaded successfully!
+2025-06-05 20:37:55,730 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2025-06-05 20:37:55,730 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 20:37:55,741 - INFO -  * Restarting with stat
+2025-06-05 20:38:09,351 - INFO - Starting Executive Demo Server...
+2025-06-05 20:38:09,351 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-05 20:38:09,357 - INFO - Use pytorch device_name: cpu
+2025-06-05 20:38:09,357 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-05 20:38:12,097 - INFO - Model loaded successfully!
+2025-06-05 20:38:12,117 - WARNING -  * Debugger is active!
+2025-06-05 20:38:12,130 - INFO -  * Debugger PIN: 307-343-049
+2025-06-05 20:38:14,818 - INFO - 127.0.0.1 - - [05/Jun/2025 20:38:14] "GET / HTTP/1.1" 200 -
+2025-06-05 20:43:17,379 - INFO - 127.0.0.1 - - [05/Jun/2025 20:43:17] "GET / HTTP/1.1" 200 -
+2025-06-05 20:46:10,751 - INFO - 127.0.0.1 - - [05/Jun/2025 20:46:10] "GET / HTTP/1.1" 200 -
+2025-06-05 20:46:49,932 - INFO - 127.0.0.1 - - [05/Jun/2025 20:46:49] "GET / HTTP/1.1" 200 -
+2025-06-05 20:47:18,332 - INFO - 127.0.0.1 - - [05/Jun/2025 20:47:18] "GET / HTTP/1.1" 200 -
+2025-06-05 20:47:46,832 - INFO - 127.0.0.1 - - [05/Jun/2025 20:47:46] "GET / HTTP/1.1" 200 -
+2025-06-05 20:52:08,437 - INFO - 127.0.0.1 - - [05/Jun/2025 20:52:08] "GET / HTTP/1.1" 200 -
+2025-06-05 21:21:43,747 - INFO - Starting Executive Demo Server...
+2025-06-05 21:21:43,747 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-05 21:21:43,749 - INFO - Use pytorch device_name: cpu
+2025-06-05 21:21:43,749 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-05 21:21:49,115 - INFO - Model loaded successfully!
+2025-06-05 21:21:49,187 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2025-06-05 21:21:49,187 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 21:21:49,198 - INFO -  * Restarting with stat
+2025-06-05 21:21:55,231 - INFO - Starting Executive Demo Server...
+2025-06-05 21:21:55,231 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-05 21:21:55,233 - INFO - Use pytorch device_name: cpu
+2025-06-05 21:21:55,233 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-05 21:21:56,786 - INFO - Model loaded successfully!
+2025-06-05 21:21:56,794 - WARNING -  * Debugger is active!
+2025-06-05 21:21:56,798 - INFO -  * Debugger PIN: 307-343-049
+2025-06-05 21:29:11,568 - INFO - 127.0.0.1 - - [05/Jun/2025 21:29:11] "GET / HTTP/1.1" 200 -
+2025-06-05 21:47:17,833 - INFO - Starting Executive Demo Server...
+2025-06-05 21:47:17,833 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-05 21:47:17,848 - INFO - Use pytorch device_name: cpu
+2025-06-05 21:47:17,848 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-05 21:47:20,429 - INFO - Model loaded successfully!
+2025-06-05 21:47:20,435 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2025-06-05 21:47:20,435 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 21:47:20,435 - INFO -  * Restarting with stat
+2025-06-05 21:47:26,180 - INFO - Starting Executive Demo Server...
+2025-06-05 21:47:26,180 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-05 21:47:26,197 - INFO - Use pytorch device_name: cpu
+2025-06-05 21:47:26,197 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-05 21:47:27,792 - INFO - Model loaded successfully!
+2025-06-05 21:47:27,800 - WARNING -  * Debugger is active!
+2025-06-05 21:47:27,806 - INFO -  * Debugger PIN: 307-343-049
+2025-06-05 21:47:37,925 - INFO - 127.0.0.1 - - [05/Jun/2025 21:47:37] "GET / HTTP/1.1" 200 -
+2025-06-05 21:51:51,899 - INFO - 127.0.0.1 - - [05/Jun/2025 21:51:51] "GET / HTTP/1.1" 200 -
+2025-06-05 21:56:41,885 - INFO - 127.0.0.1 - - [05/Jun/2025 21:56:41] "GET / HTTP/1.1" 200 -
+2025-06-05 21:59:26,873 - INFO - 127.0.0.1 - - [05/Jun/2025 21:59:26] "GET / HTTP/1.1" 200 -
+2025-06-05 21:59:32,937 - INFO - 127.0.0.1 - - [05/Jun/2025 21:59:32] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 21:59:34,439 - INFO - 127.0.0.1 - - [05/Jun/2025 21:59:34] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 22:00:32,216 - INFO - 127.0.0.1 - - [05/Jun/2025 22:00:32] "GET / HTTP/1.1" 200 -
+2025-06-05 22:00:34,166 - INFO - 127.0.0.1 - - [05/Jun/2025 22:00:34] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 22:01:39,607 - INFO - 127.0.0.1 - - [05/Jun/2025 22:01:39] "GET / HTTP/1.1" 200 -
+2025-06-05 22:02:22,782 - INFO - 127.0.0.1 - - [05/Jun/2025 22:02:22] "GET / HTTP/1.1" 200 -
+2025-06-05 22:02:26,914 - INFO - 127.0.0.1 - - [05/Jun/2025 22:02:26] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 22:07:04,791 - INFO - 127.0.0.1 - - [05/Jun/2025 22:07:04] "GET / HTTP/1.1" 200 -
+2025-06-05 22:08:31,391 - INFO - 127.0.0.1 - - [05/Jun/2025 22:08:31] "GET / HTTP/1.1" 200 -
+2025-06-05 22:08:59,863 - INFO - 127.0.0.1 - - [05/Jun/2025 22:08:59] "GET / HTTP/1.1" 200 -
+2025-06-05 22:09:29,245 - INFO - 127.0.0.1 - - [05/Jun/2025 22:09:29] "GET / HTTP/1.1" 200 -
+2025-06-05 22:09:52,552 - INFO - 127.0.0.1 - - [05/Jun/2025 22:09:52] "GET / HTTP/1.1" 200 -
+2025-06-05 22:10:19,109 - INFO - 127.0.0.1 - - [05/Jun/2025 22:10:19] "GET / HTTP/1.1" 200 -
+2025-06-05 22:12:46,077 - INFO - 127.0.0.1 - - [05/Jun/2025 22:12:46] "GET / HTTP/1.1" 200 -
+2025-06-05 22:15:07,479 - INFO - 127.0.0.1 - - [05/Jun/2025 22:15:07] "GET / HTTP/1.1" 200 -
+2025-06-05 22:17:41,413 - INFO - 127.0.0.1 - - [05/Jun/2025 22:17:41] "GET / HTTP/1.1" 200 -
+2025-06-05 22:17:57,120 - INFO - 127.0.0.1 - - [05/Jun/2025 22:17:57] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 22:18:19,114 - INFO - Starting Executive Demo Server...
+2025-06-05 22:18:19,114 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-05 22:18:19,114 - INFO - Use pytorch device_name: cpu
+2025-06-05 22:18:19,114 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-05 22:18:20,679 - INFO - Model loaded successfully!
+2025-06-05 22:18:20,695 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2025-06-05 22:18:20,695 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 22:18:20,695 - INFO -  * Restarting with stat
+2025-06-05 22:18:26,549 - INFO - Starting Executive Demo Server...
+2025-06-05 22:18:26,549 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-05 22:18:26,549 - INFO - Use pytorch device_name: cpu
+2025-06-05 22:18:26,549 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-05 22:18:28,434 - INFO - Model loaded successfully!
+2025-06-05 22:18:28,456 - WARNING -  * Debugger is active!
+2025-06-05 22:18:28,456 - INFO -  * Debugger PIN: 307-343-049
+2025-06-05 22:18:37,474 - INFO - 127.0.0.1 - - [05/Jun/2025 22:18:37] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 22:18:46,716 - INFO - 127.0.0.1 - - [05/Jun/2025 22:18:46] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 22:19:11,274 - INFO - 127.0.0.1 - - [05/Jun/2025 22:19:11] "GET / HTTP/1.1" 200 -
+2025-06-05 22:23:17,252 - INFO - 127.0.0.1 - - [05/Jun/2025 22:23:17] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-05 22:25:00,818 - INFO - 127.0.0.1 - - [05/Jun/2025 22:25:00] "GET / HTTP/1.1" 200 -
+2025-06-05 22:25:47,315 - INFO - 127.0.0.1 - - [05/Jun/2025 22:25:47] "GET / HTTP/1.1" 200 -
+2025-06-05 22:27:26,498 - INFO - Received executive question
+2025-06-05 22:27:26,500 - INFO - Question: Who is the contact person for Tech innovation expo?
+2025-06-05 22:27:26,500 - INFO - Fetching latest Google Sheet data...
+2025-06-05 22:27:28,911 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-05 22:27:28,912 - INFO - Processing with AI...
+2025-06-05 22:27:29,114 - INFO - AI response generated
+2025-06-05 22:27:29,115 - INFO - 127.0.0.1 - - [05/Jun/2025 22:27:29] "POST /ask HTTP/1.1" 200 -
+2025-06-05 22:28:33,608 - INFO - 127.0.0.1 - - [05/Jun/2025 22:28:33] "GET / HTTP/1.1" 200 -
+2025-06-05 22:29:13,601 - INFO - Received executive question
+2025-06-05 22:29:13,601 - INFO - Question: Who is the contact person for tech expo?
+2025-06-05 22:29:13,601 - INFO - Fetching latest Google Sheet data...
+2025-06-05 22:29:16,887 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-05 22:29:16,887 - INFO - Processing with AI...
+2025-06-05 22:29:17,037 - INFO - AI response generated
+2025-06-05 22:29:17,046 - INFO - 127.0.0.1 - - [05/Jun/2025 22:29:17] "POST /ask HTTP/1.1" 200 -
+2025-06-09 14:50:02,331 - INFO - Starting Executive Demo Server...
+2025-06-09 14:50:02,331 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-09 14:50:02,339 - INFO - Use pytorch device_name: cpu
+2025-06-09 14:50:02,339 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 14:50:13,764 - INFO - Model loaded successfully!
+2025-06-09 14:50:13,909 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2025-06-09 14:50:13,909 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 14:50:13,929 - INFO -  * Restarting with stat
+2025-06-09 14:50:27,218 - INFO - Starting Executive Demo Server...
+2025-06-09 14:50:27,218 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-09 14:50:27,220 - INFO - Use pytorch device_name: cpu
+2025-06-09 14:50:27,222 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 14:50:30,280 - INFO - Model loaded successfully!
+2025-06-09 14:50:30,297 - WARNING -  * Debugger is active!
+2025-06-09 14:50:30,309 - INFO -  * Debugger PIN: 307-343-049
+2025-06-09 14:50:39,311 - INFO - 127.0.0.1 - - [09/Jun/2025 14:50:39] "GET / HTTP/1.1" 200 -
+2025-06-09 14:50:41,001 - INFO - 127.0.0.1 - - [09/Jun/2025 14:50:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-09 14:51:21,853 - INFO - Received executive question
+2025-06-09 14:51:21,853 - INFO - Question: Who is the contact person for Tech expo?
+2025-06-09 14:51:21,853 - INFO - Fetching latest Google Sheet data...
+2025-06-09 14:51:24,876 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-09 14:51:24,876 - INFO - Processing with AI...
+2025-06-09 14:51:25,384 - INFO - AI response generated
+2025-06-09 14:51:25,386 - INFO - 127.0.0.1 - - [09/Jun/2025 14:51:25] "POST /ask HTTP/1.1" 200 -
+2025-06-09 14:53:13,719 - INFO - Received executive question
+2025-06-09 14:53:13,719 - INFO - Question: What is the client satisfaction for Q2?
+2025-06-09 14:53:13,722 - INFO - Fetching latest Google Sheet data...
+2025-06-09 14:53:15,582 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-09 14:53:15,582 - INFO - Processing with AI...
+2025-06-09 14:53:15,943 - INFO - AI response generated
+2025-06-09 14:53:15,943 - INFO - 127.0.0.1 - - [09/Jun/2025 14:53:15] "POST /ask HTTP/1.1" 200 -
+2025-06-09 14:54:12,834 - INFO - Received executive question
+2025-06-09 14:54:12,834 - INFO - Question: What is the Q2 of Client Satisfaction?
+2025-06-09 14:54:12,834 - INFO - Fetching latest Google Sheet data...
+2025-06-09 14:54:14,763 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-09 14:54:14,763 - INFO - Processing with AI...
+2025-06-09 14:54:15,172 - INFO - AI response generated
+2025-06-09 14:54:15,172 - INFO - 127.0.0.1 - - [09/Jun/2025 14:54:15] "POST /ask HTTP/1.1" 200 -
+2025-06-09 14:56:44,348 - INFO - Received executive question
+2025-06-09 14:56:44,348 - INFO - Question: What is the status of Food Summit?
+2025-06-09 14:56:44,348 - INFO - Fetching latest Google Sheet data...
+2025-06-09 14:56:46,881 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-09 14:56:46,881 - INFO - Processing with AI...
+2025-06-09 14:56:46,917 - INFO - AI response generated
+2025-06-09 14:56:46,917 - INFO - 127.0.0.1 - - [09/Jun/2025 14:56:46] "POST /ask HTTP/1.1" 200 -
+2025-06-09 14:57:08,244 - INFO - Received executive question
+2025-06-09 14:57:08,244 - INFO - Question: What is the food summit of Status?
+2025-06-09 14:57:08,244 - INFO - Fetching latest Google Sheet data...
+2025-06-09 14:57:10,615 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-09 14:57:10,615 - INFO - Processing with AI...
+2025-06-09 14:57:10,617 - INFO - AI response generated
+2025-06-09 14:57:10,617 - INFO - 127.0.0.1 - - [09/Jun/2025 14:57:10] "POST /ask HTTP/1.1" 200 -
+2025-06-09 15:01:33,414 - INFO - Received executive question
+2025-06-09 15:01:33,414 - INFO - Question: What is the budget fot tech expo?
+2025-06-09 15:01:33,414 - INFO - Fetching latest Google Sheet data...
+2025-06-09 15:01:36,202 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-09 15:01:36,202 - INFO - Processing with AI...
+2025-06-09 15:01:36,202 - INFO - AI response generated
+2025-06-09 15:01:36,202 - INFO - 127.0.0.1 - - [09/Jun/2025 15:01:36] "POST /ask HTTP/1.1" 200 -
+2025-06-09 15:03:43,403 - INFO - Received executive question
+2025-06-09 15:03:43,403 - INFO - Question: What is the budget fot food summit?
+2025-06-09 15:03:43,403 - INFO - Fetching latest Google Sheet data...
+2025-06-09 15:03:46,287 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-09 15:03:46,291 - INFO - Processing with AI...
+2025-06-09 15:03:46,291 - INFO - AI response generated
+2025-06-09 15:03:46,293 - INFO - 127.0.0.1 - - [09/Jun/2025 15:03:46] "POST /ask HTTP/1.1" 200 -
+2025-06-09 15:05:57,067 - INFO - Received executive question
+2025-06-09 15:05:57,067 - INFO - Question: What is the progress for Food Summit?
+2025-06-09 15:05:57,067 - INFO - Fetching latest Google Sheet data...
+2025-06-09 15:05:59,626 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-09 15:05:59,626 - INFO - Processing with AI...
+2025-06-09 15:05:59,923 - INFO - AI response generated
+2025-06-09 15:05:59,923 - INFO - 127.0.0.1 - - [09/Jun/2025 15:05:59] "POST /ask HTTP/1.1" 200 -
+2025-06-09 15:10:00,216 - INFO - Received executive question
+2025-06-09 15:10:00,216 - INFO - Question: what is the start date of tech expo?
+2025-06-09 15:10:00,216 - INFO - Fetching latest Google Sheet data...
+2025-06-09 15:10:02,732 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-09 15:10:02,732 - INFO - Processing with AI...
+2025-06-09 15:10:03,028 - INFO - AI response generated
+2025-06-09 15:10:03,028 - INFO - 127.0.0.1 - - [09/Jun/2025 15:10:03] "POST /ask HTTP/1.1" 200 -
+2025-06-09 15:12:32,639 - INFO - Received executive question
+2025-06-09 15:12:32,641 - INFO - Question: What is the end date of food summit?
+2025-06-09 15:12:32,641 - INFO - Fetching latest Google Sheet data...
+2025-06-09 15:12:34,788 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-09 15:12:34,789 - INFO - Processing with AI...
+2025-06-09 15:12:35,148 - INFO - AI response generated
+2025-06-09 15:12:35,150 - INFO - 127.0.0.1 - - [09/Jun/2025 15:12:35] "POST /ask HTTP/1.1" 200 -
+2025-06-10 16:12:51,052 - INFO - Starting Executive Demo Server...
+2025-06-10 16:12:51,052 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-10 16:12:51,052 - INFO - Use pytorch device_name: cpu
+2025-06-10 16:12:51,052 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-10 16:12:57,023 - INFO - Model loaded successfully!
+2025-06-10 16:12:57,087 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2025-06-10 16:12:57,087 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 16:12:57,104 - INFO -  * Restarting with stat
+2025-06-10 16:13:02,917 - INFO - Starting Executive Demo Server...
+2025-06-10 16:13:02,919 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-10 16:13:02,921 - INFO - Use pytorch device_name: cpu
+2025-06-10 16:13:02,921 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-10 16:13:04,607 - INFO - Model loaded successfully!
+2025-06-10 16:13:04,630 - WARNING -  * Debugger is active!
+2025-06-10 16:13:04,630 - INFO -  * Debugger PIN: 307-343-049
+2025-06-10 16:13:09,119 - INFO - 127.0.0.1 - - [10/Jun/2025 16:13:09] "GET / HTTP/1.1" 200 -
+2025-06-10 16:13:09,826 - INFO - 127.0.0.1 - - [10/Jun/2025 16:13:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-10 16:24:22,442 - INFO - 127.0.0.1 - - [10/Jun/2025 16:24:22] "GET / HTTP/1.1" 200 -
+2025-06-10 16:42:51,604 - INFO - 127.0.0.1 - - [10/Jun/2025 16:42:51] "GET / HTTP/1.1" 200 -
+2025-06-10 16:53:32,508 - INFO - 127.0.0.1 - - [10/Jun/2025 16:53:32] "GET / HTTP/1.1" 200 -
+2025-06-10 16:53:58,277 - INFO - 127.0.0.1 - - [10/Jun/2025 16:53:58] "GET / HTTP/1.1" 200 -
+2025-06-10 16:54:52,516 - INFO - 127.0.0.1 - - [10/Jun/2025 16:54:52] "GET / HTTP/1.1" 200 -
+2025-06-10 16:56:28,040 - INFO - 127.0.0.1 - - [10/Jun/2025 16:56:28] "GET / HTTP/1.1" 200 -
+2025-06-10 17:00:20,663 - INFO - 127.0.0.1 - - [10/Jun/2025 17:00:20] "GET / HTTP/1.1" 200 -
+2025-06-17 17:21:35,363 - INFO - Starting Executive Demo Server...
+2025-06-17 17:21:35,363 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-17 17:21:35,368 - INFO - Use pytorch device_name: cpu
+2025-06-17 17:21:35,368 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-17 17:21:47,220 - INFO - Model loaded successfully!
+2025-06-17 17:21:47,384 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2025-06-17 17:21:47,386 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 17:21:47,406 - INFO -  * Restarting with stat
+2025-06-17 17:22:02,889 - INFO - Starting Executive Demo Server...
+2025-06-17 17:22:02,889 - INFO - Loading AI model: all-MiniLM-L6-v2
+2025-06-17 17:22:02,894 - INFO - Use pytorch device_name: cpu
+2025-06-17 17:22:02,894 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-17 17:22:06,604 - INFO - Model loaded successfully!
+2025-06-17 17:22:06,624 - WARNING -  * Debugger is active!
+2025-06-17 17:22:06,668 - INFO -  * Debugger PIN: 307-343-049
+2025-06-17 17:22:19,047 - INFO - 127.0.0.1 - - [17/Jun/2025 17:22:19] "GET / HTTP/1.1" 200 -
+2025-06-17 17:22:20,892 - INFO - 127.0.0.1 - - [17/Jun/2025 17:22:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-17 17:22:40,272 - INFO - Received executive question
+2025-06-17 17:22:40,272 - INFO - Question: who is the contact person of Tech Expo?
+2025-06-17 17:22:40,273 - INFO - Fetching latest Google Sheet data...
+2025-06-17 17:22:43,508 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-17 17:22:43,508 - INFO - Processing with AI...
+2025-06-17 17:22:44,071 - INFO - AI response generated
+2025-06-17 17:22:44,073 - INFO - 127.0.0.1 - - [17/Jun/2025 17:22:44] "POST /ask HTTP/1.1" 200 -
+2025-06-17 17:23:21,518 - INFO - Received executive question
+2025-06-17 17:23:21,520 - INFO - Question: Where will attend the green energy Expo event?
+2025-06-17 17:23:21,520 - INFO - Fetching latest Google Sheet data...
+2025-06-17 17:23:24,216 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-17 17:23:24,217 - INFO - Processing with AI...
+2025-06-17 17:23:24,556 - INFO - AI response generated
+2025-06-17 17:23:24,557 - INFO - 127.0.0.1 - - [17/Jun/2025 17:23:24] "POST /ask HTTP/1.1" 200 -
+2025-06-17 17:23:54,458 - INFO - Received executive question
+2025-06-17 17:23:54,458 - INFO - Question: what is the location of green energy expo?
+2025-06-17 17:23:54,459 - INFO - Fetching latest Google Sheet data...
+2025-06-17 17:23:56,886 - INFO - Sheet data fetched. Shape: (4, 8)
+2025-06-17 17:23:56,887 - INFO - Processing with AI...
+2025-06-17 17:23:57,213 - INFO - AI response generated
+2025-06-17 17:23:57,214 - INFO - 127.0.0.1 - - [17/Jun/2025 17:23:57] "POST /ask HTTP/1.1" 200 -
